@@ -1,0 +1,14 @@
+.languages {
+    background: var(--white-bg);
+    padding: 18px 19px 18px 15px;
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__text {
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 6px;
+        color: rgba(6, 37, 91, 0.4);
+    }
+}

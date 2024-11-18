@@ -1,0 +1,10 @@
+.btn {
+    padding: 17px 18px;
+    &-primary {
+        background: var(--primary-color);
+        color: var(--text-color-white);
+        &:hover {
+            background: var(--primary-color-hover);
+        }
+    }
+}

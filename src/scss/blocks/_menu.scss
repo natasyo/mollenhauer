@@ -1,0 +1,13 @@
+.menu {
+    &__wrap {
+        display: flex;
+    }
+    &__item {
+        margin: 0 16px;
+    }
+    &__link {
+        color: var(--text-color-white);
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
