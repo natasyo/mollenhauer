@@ -2,9 +2,24 @@
     background: var(--white-bg);
     padding: 18px 19px 18px 15px;
     margin-left: 16px;
+    display: flex;
     &__item {
         display: flex;
         align-items: center;
+
+        & img {
+            border-radius: 50%;
+        }
+
+        &:not(:last-child) {
+            margin-right: 12px;
+        }
+        &_current {
+            .languages__text {
+                color: rgba(6, 37, 91, 1);
+                text-decoration: underline;
+            }
+        }
     }
     &__text {
         font-size: 15px;
