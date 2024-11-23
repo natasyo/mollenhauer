@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Стартовый шаблон</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Стартовый шаблон</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="main-layout">
     <div class="container-top">
       @@include('blocks/header.html') @@include('blocks/banner.html')
     </div>
-
+    @@include('blocks/structural.html')
+    @@include('blocks/broad.html')
+    @@include('blocks/benefit.html')
     @@include('blocks/footer.html')
-    <script src="./js/index.bundle.js"></script>
-    <p></p>
-  </body>
+    <div class="main-layout__rect">
+
+    </div>
+  </div>
+
+  <script src="./js/index.bundle.js"></script>
+
+</body>
+
 </html>

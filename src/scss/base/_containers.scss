@@ -1,28 +1,50 @@
 .container {
-	padding: 0 var(--container-padding);
-	max-width: var(--container-width);
-	margin: 0 auto;
-	max-width: var(--container-max-width);
+  padding: 0 var(--container-padding);
+  max-width: var(--container-width);
+  margin: 0 auto;
+  max-width: var(--container-max-width);
 }
 
 .container-right {
-	/* overflow-x: hidden; */
-	padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+  /* overflow-x: hidden; */
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
 
-	@media (max-width: var(--laptop-size)) {
-		padding-left: var(--container-padding);
-	}
+  @media (max-width: var(--laptop-size)) {
+    padding-left: var(--container-padding);
+  }
 }
 
 .container-left {
-	/* overflow-x: hidden; */
-	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+  /* overflow-x: hidden; */
+  padding-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
 
-	@media (max-width: var(--laptop-size)) {
-		padding-right: var(--container-padding);
-	}
+  @media (max-width: var(--laptop-size)) {
+    padding-right: var(--container-padding);
+  }
 }
 
 .container-top {
-	background: url("../../img/bg-top.jpg") no-repeat center top;
+  background: url("../../img/bg-top.jpg") no-repeat center top;
+  background-size: cover;
+}
+.container__fluid {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+}
+.main-layout {
+  position: relative;
+  overflow: hidden;
+  &__rect {
+    position: absolute;
+    width: 2440px;
+    height: 2440px;
+    background: #fff;
+    transform: rotate(45deg);
+    top: 931px;
+    left: calc(50% - 358px);
+  }
 }

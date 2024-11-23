@@ -1,10 +1,36 @@
 .btn {
-    padding: 17px 18px;
-    &-primary {
-        background: var(--primary-color);
-        color: var(--text-color-white);
-        &:hover {
-            background: var(--primary-color-hover);
-        }
+  padding: 18px 35px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  letter-spacing: 0.3px;
+  box-sizing: border-box;
+
+  &-primary {
+    background: var(--primary-color);
+    color: var(--text-color-white);
+    &:hover {
+      background: var(--primary-color-hover);
     }
+  }
+  &-secondary {
+    background: #06255b99;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 16px 20px;
+    &:hover {
+      background: #fff;
+      color: #06255b;
+    }
+  }
+  &-info {
+    background: #fff;
+    color: #06255b;
+    &:hover {
+      background-color: #abb5c7;
+      color: #fff;
+    }
+  }
 }

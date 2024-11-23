@@ -1,25 +1,28 @@
 :root {
-	--container-width: 1200px;
-	--container-padding: 15px;
-	--container-max-width: 1486px;
-	--font-main: "Source Sans Pro", sans-serif;
-	--font-accent: "Playfair Display", serif;
+  --container-width: 1200px;
+  --container-padding: 24px;
+  --container-max-width: 1486px;
+  --font-main: "Source Sans Pro", sans-serif;
+  --font-accent: "Playfair Display", serif;
+  --max-width-content: 1728px;
 
-	--white-bg: #fff;
-	--text-color: #000;
-	--text-color-white: white;
-	--accent: #ac182c;
-	--primary-color: #da5d24;
-	--primary-color-hover: #ba4e1d;
+  --white-bg: #fff;
+  --text-color: #000;
+  --text-color-white: white;
+  --accent: #ac182c;
+  --primary-color: #da5d24;
+  --primary-color-hover: #ba4e1d;
+  --page-bg: #f7f9fc;
+  --page-bg-blue: #06255b;
 
-	--laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
 }
 
 .dark {
-	--page-bg: #252526;
-	--text-color: #fff;
+  --page-bg: #252526;
+  --text-color: #fff;
 }
 
 /* btn rect */

@@ -1,14 +1,17 @@
 .header {
-	padding: 50px 0;
+  padding: 47px 0;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-left: 162px;
-	}
-	&__right {
-		display: flex;
-		align-items: center;
-	}
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 86px;
+    position: relative;
+    z-index: 6;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    // margin-top: 26px;
+  }
 }
