@@ -2,7 +2,9 @@
   color: var(--text-color-white);
   position: relative;
   padding: 129px 0 340px;
-
+  p {
+    color: var(--text-color-white);
+  }
   &__container {
     padding: 0 46px;
   }
