@@ -1,0 +1,23 @@
+.key-player {
+    padding-top: 10px;
+    &__header {
+        margin-bottom: 27px;
+    }
+    &__clients-wrap {
+        display: flex;
+        align-items: center;
+    }
+    &__client {
+        border-right: 0.5px dashed rgba(47, 48, 52, 1);
+        height: 128px;
+        &-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            img {
+                max-width: 144px;
+            }
+        }
+    }
+}

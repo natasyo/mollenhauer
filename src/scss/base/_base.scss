@@ -3,7 +3,17 @@ html {
 }
 
 body {
-  background-color: var(--page-bg);
+  background: rgb(247, 249, 252);
+  background: rgb(247, 249, 252);
+  background: linear-gradient(
+    45deg,
+    rgba(247, 249, 252, 1) 0%,
+    rgba(247, 249, 252, 1) 50%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(247, 249, 252, 1) 70%,
+    rgba(247, 249, 252, 1) 100%
+  );
   color: var(--text-color);
   font-family: var(--font-main);
 }
@@ -34,9 +44,33 @@ h2 {
 }
 .h3,
 h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+.h4,
+h4 {
   font-size: 28px;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -1px;
   color: #000000;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: center;
+
+  &-button {
+    height: 71px;
+    width: 71px;
+    &_left {
+      background: #06255b;
+    }
+    &_right {
+      background: #da5d24;
+    }
+  }
 }

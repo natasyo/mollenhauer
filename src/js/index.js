@@ -1,5 +1,6 @@
-import mobileNav from './modules/mobile-nav.js';
+// import mobileNav from './modules/mobile-nav.js';
 
-mobileNav();
+// mobileNav();
 
-import './modules/benefit.js'
+import "./modules/benefit.js";
+import "./modules/key-player.js";

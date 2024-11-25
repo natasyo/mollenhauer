@@ -1,6 +1,25 @@
-import $ from 'jquery'
-import 'slick-slider'
+import $ from "jquery";
+import "slick-slider";
 
-$('.benefit__items').slick(
-    {arrows:false}
-)
+const benefits = $(".benefit__items");
+
+benefits.slick({ arrows: false });
+
+$(".benefit__paginations-button_left").on("click", function () {
+  $(benefits).slick("slickPrev");
+  console.log("ok");
+});
+$(".benefit__paginations-button_right").on("click", function () {
+  $(benefits).slick("slickNext");
+});
+
+$(benefits).on("afterChange", function (e) {
+  const current = $(benefits).slick("slickCurrentSlide");
+  $(".benefit__paginations-item").map((index, item) => {
+    if ($(item).data("index") <= current) {
+      $(item).addClass("benefit__paginations-item_visited");
+    } else {
+      $(item).removeClass("benefit__paginations-item_visited");
+    }
+  });
+});

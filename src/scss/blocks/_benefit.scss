@@ -56,6 +56,17 @@
     &-item {
       padding: 0 24px;
       max-width: 252px;
+      &_visited {
+        .benefit__paginations-content p,
+        p {
+          color: rgba(47, 48, 52, 1);
+        }
+        .benefit__paginations-plus {
+          svg {
+            fill: rgba(47, 48, 52, 1);
+          }
+        }
+      }
     }
     &-item:not(:last-of-type) {
       border-right: 1px dashed #a8acad;
@@ -88,19 +99,10 @@
         color: #a8acad;
       }
     }
-    &-buttons {
-      display: flex;
-      justify-content: center;
-    }
+
     &-button {
-      height: 71px;
-      width: 71px;
       &_left {
-        background: #06255b;
         margin-left: 144px;
-      }
-      &_right {
-        background: #da5d24;
       }
     }
   }
