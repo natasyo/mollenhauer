@@ -1,0 +1,100 @@
+.key-player {
+  padding-top: 10px;
+  &__header {
+    margin-bottom: 30px;
+  }
+  &__clients-wrap {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    margin-bottom: 94px;
+  }
+  &__clients {
+    max-width: 100%;
+  }
+  &__client {
+    border-right: 0.5px dashed rgba(47, 48, 52, 1);
+    height: 128px;
+    &-wrap {
+      display: flex;
+      align-items: center;
+      padding-left: 65px;
+      height: 100%;
+      img {
+        max-width: 144px;
+      }
+    }
+  }
+  &__prev,
+  &__next {
+    flex-shrink: 0;
+  }
+  &__clients-say {
+    margin-top: 94px;
+    &-container {
+      display: flex;
+    }
+    &-info {
+      max-width: 290px;
+    }
+    &-header {
+      margin-bottom: 24px;
+    }
+    &-items {
+      width: 577px;
+      height: 600px;
+      background-image: radial-gradient(
+          circle at 100% 100%,
+          transparent -7px,
+          white -7px,
+          white 0px,
+          transparent 0px
+        ),
+        linear-gradient(to right, white, white),
+        radial-gradient(
+          circle at 0% 100%,
+          transparent -7px,
+          white -7px,
+          white 0px,
+          transparent 0px
+        ),
+        linear-gradient(to bottom, white, lime),
+        radial-gradient(
+          circle at 0% 0%,
+          transparent -7px,
+          lime -7px,
+          lime 0px,
+          transparent 0px
+        ),
+        linear-gradient(to left, lime, lime),
+        radial-gradient(
+          circle at 100% 0%,
+          transparent -7px,
+          lime -7px,
+          lime 0px,
+          transparent 0px
+        ),
+        linear-gradient(to top, lime, white);
+      background-position: top left, top center, top right, center right,
+        bottom right, bottom center, bottom left, center left;
+      background-size: 0px 0px, calc(100% - (2 * 0px)) 7px, 0px 0px,
+        7px calc(100% - (2 * 0px));
+      background-repeat: no-repeat;
+      border-radius: 0px;
+      padding: 45px 0 45px 65px;
+      box-sizing: content-box;
+    }
+    &-item {
+      width: 579px;
+
+      &-text {
+        font-family: "Minion Pro";
+        font-size: 19px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 28.5px;
+        letter-spacing: 0.27000001072883606px;
+      }
+    }
+  }
+}
