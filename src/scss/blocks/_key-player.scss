@@ -1,16 +1,20 @@
 .key-player {
   padding-top: 10px;
+  padding-bottom: 90px;
   &__header {
     margin-bottom: 30px;
   }
   &__clients-wrap {
     display: flex;
     align-items: center;
+
     padding-right: 40px;
     margin-bottom: 94px;
   }
   &__clients {
     max-width: 100%;
+    padding: 0 0px 0 7px;
+    margin-left: -9px;
   }
   &__client {
     border-right: 0.5px dashed rgba(47, 48, 52, 1);
@@ -18,7 +22,7 @@
     &-wrap {
       display: flex;
       align-items: center;
-      padding-left: 65px;
+      padding: 0 144px 0 73px;
       height: 100%;
       img {
         max-width: 144px;
@@ -33,6 +37,8 @@
     margin-top: 94px;
     &-container {
       display: flex;
+      justify-content: space-between;
+      max-width: 1223px;
     }
     &-info {
       max-width: 290px;
@@ -43,58 +49,99 @@
     &-items {
       width: 577px;
       height: 600px;
-      background-image: radial-gradient(
-          circle at 100% 100%,
-          transparent -7px,
-          white -7px,
-          white 0px,
-          transparent 0px
-        ),
-        linear-gradient(to right, white, white),
-        radial-gradient(
-          circle at 0% 100%,
-          transparent -7px,
-          white -7px,
-          white 0px,
-          transparent 0px
-        ),
-        linear-gradient(to bottom, white, lime),
-        radial-gradient(
-          circle at 0% 0%,
-          transparent -7px,
-          lime -7px,
-          lime 0px,
-          transparent 0px
-        ),
-        linear-gradient(to left, lime, lime),
-        radial-gradient(
-          circle at 100% 0%,
-          transparent -7px,
-          lime -7px,
-          lime 0px,
-          transparent 0px
-        ),
-        linear-gradient(to top, lime, white);
-      background-position: top left, top center, top right, center right,
-        bottom right, bottom center, bottom left, center left;
-      background-size: 0px 0px, calc(100% - (2 * 0px)) 7px, 0px 0px,
-        7px calc(100% - (2 * 0px));
-      background-repeat: no-repeat;
-      border-radius: 0px;
-      padding: 45px 0 45px 65px;
-      box-sizing: content-box;
+      border-bottom: 39px solid #ff7c40;
+      border-top: 39px solid #ff7c40;
+      position: relative;
+      margin-left: 70px;
+
+      &-wrap {
+        width: 617px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        & .slick-dots {
+          left: -216px;
+          width: unset;
+          bottom: -92px;
+        }
+      }
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 39px;
+        position: absolute;
+        background: rgb(255, 124, 64);
+        top: 0;
+      }
+      &::before {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 124, 64, 1) 0%,
+          rgba(255, 124, 64, 1) 17%,
+          transparent 17%,
+          transparent 84.5%,
+          rgba(255, 124, 64, 1) 84.5%
+        );
+
+        left: 0;
+      }
+      &::after {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 124, 64, 1) 0%,
+          rgba(255, 124, 64, 1) 17%,
+          transparent 17%,
+          transparent 93.5%,
+          rgba(255, 124, 64, 1) 93.5%
+        );
+        right: 0;
+      }
+
+      padding: 87px 0 45px 69px;
+      box-sizing: border-box;
     }
     &-item {
-      width: 579px;
-
+      height: 363px;
+      display: flex !important;
+      flex-direction: column;
       &-text {
+        flex-grow: 2;
+      }
+
+      &-text p {
         font-family: "Minion Pro";
         font-size: 19px;
         font-style: italic;
         font-weight: 500;
         line-height: 28.5px;
-        letter-spacing: 0.27000001072883606px;
+        letter-spacing: 0.003em;
+
+        color: #4a4b4e;
       }
+      &-header {
+        margin-bottom: 39px;
+        padding-left: 4px;
+        img {
+          max-width: 202px;
+        }
+      }
+      &-person {
+        padding-left: 4px;
+      }
+      &-position {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22.5px;
+        letter-spacing: 0.27000001072883606px;
+        color: #ff7c40;
+        margin-top: 15px;
+      }
+    }
+    &-buttons {
+      display: flex;
+      align-items: flex-end;
     }
   }
 }
