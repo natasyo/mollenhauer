@@ -1,0 +1,53 @@
+.holistic {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  &__under {
+    color: #2f3034;
+    margin-left: -1px;
+    margin-bottom: 26px;
+  }
+  &__support {
+    display: flex;
+    margin-bottom: 45px;
+  }
+  &__support-header {
+    margin-right: 138px;
+    width: 293px;
+    flex-shrink: 0;
+  }
+  &__support-header-text {
+    margin-bottom: 33px;
+  }
+  &__support-content {
+    column-count: 2;
+    column-gap: 39px;
+    max-width: 680px;
+    column-fill: auto;
+    height: 189px;
+    & p {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22.4px;
+      letter-spacing: 0.30000001192092896px;
+      color: #1a171b;
+      margin-bottom: 20px;
+    }
+  }
+  &__items {
+    display: grid;
+    gap: 89px;
+    grid-template-columns: 343px 1fr 1fr 1fr;
+  }
+  &__item-header {
+    line-height: 33px;
+    margin-bottom: 24px;
+  }
+  &__item-header-text {
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+      letter-spacing: 0.30000001192092896px;
+    }
+  }
+}
