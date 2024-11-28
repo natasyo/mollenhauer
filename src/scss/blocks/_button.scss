@@ -34,3 +34,18 @@
     }
   }
 }
+.btn-sm {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+  background: #ff7c40;
+  color: #fff;
+  box-shadow: 0px 4px 10px 0px #2c0b0b26;
+  border-radius: 13px;
+  padding: 4px 12px;
+  &:hover {
+    box-shadow: 0px 4px 5px 0px #2c0b0b0d;
+    background: #da5d24;
+  }
+}

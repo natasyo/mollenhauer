@@ -4,3 +4,4 @@
 
 import "./modules/benefit.js";
 import "./modules/key-player.js";
+import "./modules/map.js"
