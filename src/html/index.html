@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
-
-<body>
-  <div class="main-layout">
-    <div class="container-top">
-      @@include('blocks/header.html') @@include('blocks/banner.html')
+  <body>
+    <div class="main-layout">
+      <div class="container-top">
+        @@include('blocks/header.html') @@include('blocks/banner.html')
+      </div>
+      @@include('blocks/structural.html') @@include('blocks/broad.html')
+      @@include('blocks/benefit.html')
+      @@include('blocks/key-player.html')@@include('blocks/holistic.html')
+      @@include('blocks/team.html') @@include('blocks/map.html')
+      @@include('blocks/footer.html')
+      <div class="main-layout__rect"></div>
     </div>
-    @@include('blocks/structural.html') @@include('blocks/broad.html')
-    @@include('blocks/benefit.html') @@include('blocks/key-player.html')@@include('blocks/holistic.html')
-    @@include('blocks/team.html')
-    @@include('blocks/map.html')
-    @@include('blocks/footer.html')
-    <div class="main-layout__rect"></div>
-  </div>
-
-  <script src="./js/index.bundle.js"></script>
-</body>
-
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=663dd5d2-0cb8-4659-b6c1-376b4e4bfd7e"
+      type="text/javascript"
+    ></script>
+    <script src="./js/index.bundle.js"></script>
+  </body>
 </html>

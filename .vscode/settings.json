@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 24,
+    "debug.console.fontSize": 24,
+    "scm.inputFontSize": 24,
+    "terminal.integrated.fontSize": 20,
+    "chat.editor.fontSize": 20,
+    "markdown.preview.fontSize": 10,
+    "tailwindCSS.rootFontSize": 20
+}
