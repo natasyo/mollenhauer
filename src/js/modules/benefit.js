@@ -4,7 +4,8 @@ import "slick-slider";
 const benefits = $(".benefit__items");
 
 benefits.slick({
-  arrows: false, autoplay: true,
+  arrows: false,
+  //  autoplay: true,
   autoplaySpeed: 3000,
 });
 

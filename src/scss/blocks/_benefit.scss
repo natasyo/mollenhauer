@@ -8,7 +8,9 @@
     column-gap: 26px;
     max-width: 1380px;
     margin-bottom: 84px;
-
+    @media screen and (max-width: 1440px) {
+      grid-template-columns: 380px 1fr 1fr;
+    }
     & p {
       flex-grow: 1;
     }
@@ -25,12 +27,18 @@
       margin-bottom: 44px;
     }
     &-image {
-      flex-shrink: 0;
+      // flex-shrink: 0;
       margin-right: 18px;
+      height: 558px;
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
     }
     &-content {
       padding-top: 252px;
-      max-width: 386px;
+      width: 386px;
     }
     &-text {
       font-size: 16px;

@@ -4,6 +4,9 @@
   }
   &__item {
     margin: 0 16px;
+    @media screen and (max-width: 1440px) {
+      margin: 0 10px;
+    }
   }
   &__link {
     color: var(--text-color-white);
