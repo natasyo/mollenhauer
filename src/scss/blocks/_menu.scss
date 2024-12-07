@@ -16,3 +16,38 @@
     letter-spacing: 0.2px;
   }
 }
+
+.mobile-menu {
+  display: none;
+
+  @media screen and (max-width: 1280px) {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    padding: 148px 50px;
+    top: 0;
+    transition: ease 0.5s all;
+    right: -400px;
+    background: rgba(255, 124, 64, 0.98);
+    height: 100%;
+    width: 346px;
+    &_is-open {
+      right: 0;
+      transition: ease 0.5s all;
+    }
+  }
+  .menu {
+    &__wrap {
+      flex-direction: column;
+    }
+    &__item {
+      margin: 16px 0;
+    }
+    &__link {
+      font-size: 28px;
+      font-weight: 300;
+      line-height: 18px;
+      letter-spacing: 0.20000000298023224px;
+    }
+  }
+}

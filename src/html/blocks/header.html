@@ -2,16 +2,20 @@
   <div class="container__fluid">
     <div class="header__row">
       <a href="/" class="logo"><img src="./img/logo.svg" alt="" /></a>
-      @@include('menu.html')
-      <div class="header__right">
-        <button class="btn btn-primary">Contact Us</button>
-        @@include('languages.html')
-      </div>
+      <div class="header__menu"> @@include('menu.html')</div>
 
-      <!-- <button class="mobile-nav-btn">
-      <div class="nav-icon"></div>
-    </button> -->
+      <div class="header__right">
+        <button class="btn btn-primary header__contact-us">Contact Us</button>
+        @@include('languages.html')
+        <button class="mobile-nav-btn">
+          <div class="mobile-nav-btn__wrap">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
     </div>
   </div>
 </header>
-@@include('mobile-nav.html')
+@@include('mobile-menu.html')

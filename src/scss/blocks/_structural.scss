@@ -25,6 +25,9 @@
   @media screen and (max-width: 1600px) {
     height: 1028px;
   }
+  @media screen and (max-width: 1440px) {
+    height: 900px;
+  }
   &__container {
     color: var(--text-color-white);
     padding-left: 165px;
@@ -85,6 +88,9 @@
     z-index: 1;
     // top: 838px;
     // left: -245px;
+    @media screen and (max-width: 1440px) {
+      margin-left: -290px;
+    }
   }
   &__item {
     width: 264.01px;

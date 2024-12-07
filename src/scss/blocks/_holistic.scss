@@ -14,6 +14,9 @@
     margin-right: 138px;
     width: 293px;
     flex-shrink: 0;
+    @media screen and (max-width: 1440px) {
+      margin-right: 76px;
+    }
   }
   &__support-header-text {
     margin-bottom: 33px;
@@ -37,6 +40,10 @@
     display: grid;
     gap: 89px;
     grid-template-columns: 343px 1fr 1fr 1fr;
+    @media screen and (max-width: 1440px) {
+      grid-template-columns: 300px 1fr 1fr 1fr;
+      gap: 70px;
+    }
   }
   &__item-header {
     line-height: 33px;
