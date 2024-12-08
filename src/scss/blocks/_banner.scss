@@ -106,6 +106,10 @@
         height: 144px;
         left: calc(50% + 330px);
       }
+      @media screen and (max-width: 1280px) {
+        width: 128px;
+        height: 128px;
+      }
       p {
         font-size: 21px;
       }
@@ -119,6 +123,10 @@
           width: 135px;
           height: 135px;
         }
+        @media screen and (max-width: 1280px) {
+          width: 120px;
+          height: 120px;
+        }
       }
     }
     &_agil {
@@ -130,6 +138,10 @@
       @media screen and (max-width: 1440px) {
         width: 120px;
         height: 120px;
+      }
+      @media screen and (max-width: 1280px) {
+        width: 107px;
+        height: 107px;
       }
       p {
         font-size: 22px;
@@ -145,6 +157,10 @@
           width: 111px;
           height: 111px;
         }
+        @media screen and (max-width: 1280px) {
+          width: 99px;
+          height: 99px;
+        }
       }
     }
     &_zuver {
@@ -159,6 +175,10 @@
         height: 168px;
         left: calc(50% + 316px);
       }
+      @media screen and (max-width: 1280px) {
+        width: 149px;
+        height: 149px;
+      }
       p {
         font-size: 24px;
       }
@@ -172,6 +192,10 @@
         @media screen and (max-width: 1440px) {
           width: 160px;
           height: 160px;
+        }
+        @media screen and (max-width: 1280px) {
+          height: 141px;
+          width: 141px;
         }
       }
     }
