@@ -31,10 +31,6 @@
     background: rgba(255, 124, 64, 0.98);
     height: 100%;
     width: 346px;
-    &_is-open {
-      right: 0;
-      transition: ease 0.5s all;
-    }
   }
   .menu {
     &__wrap {
@@ -49,5 +45,12 @@
       line-height: 18px;
       letter-spacing: 0.20000000298023224px;
     }
+  }
+}
+
+.mobile-nav-show {
+  .mobile-menu {
+    right: 0;
+    transition: ease 0.5s all;
   }
 }

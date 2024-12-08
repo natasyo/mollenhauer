@@ -16,6 +16,9 @@
     &__menu {
       display: none;
     }
+    &__row {
+      height: 56px;
+    }
     &__contact-us {
       display: none;
     }
@@ -65,7 +68,16 @@
       bottom: 0;
     }
   }
-  &_is-open {
+}
+
+.mobile-nav-show {
+  .header {
+    &__right {
+      position: fixed;
+      right: 0;
+    }
+  }
+  .mobile-nav-btn {
     background: rgba(255, 124, 64, 1);
     span {
       transition: ease 0.5s all;
