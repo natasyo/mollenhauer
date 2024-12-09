@@ -11,6 +11,9 @@
     @media screen and (max-width: 1440px) {
       grid-template-columns: 380px 1fr 1fr;
     }
+    @media screen and (max-width: 1280px) {
+      grid-template-columns: 302px 1fr 1fr;
+    }
     & p {
       flex-grow: 1;
     }
@@ -39,6 +42,9 @@
     &-content {
       padding-top: 252px;
       width: 386px;
+      @media screen and (max-width: 1280px) {
+        padding-top: 204px;
+      }
     }
     &-text {
       font-size: 16px;

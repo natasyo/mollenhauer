@@ -29,7 +29,7 @@
     height: 900px;
   }
   @media screen and (max-width: 1280px) {
-    height: 882px;
+    height: 784px;
   }
   &__container {
     color: var(--text-color-white);
@@ -226,8 +226,10 @@
       font-size: 18px;
       line-height: 120%;
       letter-spacing: 0.256931px;
-
       color: #53565a;
+    }
+    @media screen and (max-width: 1280px) {
+      bottom: -231px;
     }
     svg {
       animation: scale 1s infinite linear;
