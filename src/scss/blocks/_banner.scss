@@ -5,6 +5,9 @@
   @media screen and (max-width: 1440px) {
     padding: 116px 0 306px;
   }
+  @media screen and (max-width: 1280px) {
+    padding: 97px 0 272px;
+  }
   p {
     color: var(--text-color-white);
   }
@@ -43,6 +46,9 @@
     top: 36px;
     @media screen and (max-width: 1440px) {
       left: calc(50% + 654px);
+    }
+    @media screen and (max-width: 1280px) {
+      left: calc(50% + 481px);
     }
     &::before,
     &::after {
@@ -109,6 +115,8 @@
       @media screen and (max-width: 1280px) {
         width: 128px;
         height: 128px;
+        left: calc(50% + 260px);
+        top: 122px;
       }
       p {
         font-size: 21px;
@@ -142,6 +150,7 @@
       @media screen and (max-width: 1280px) {
         width: 107px;
         height: 107px;
+        left: calc(50% + 128px);
       }
       p {
         font-size: 22px;
@@ -178,6 +187,7 @@
       @media screen and (max-width: 1280px) {
         width: 149px;
         height: 149px;
+        left: calc(50% + 249px);
       }
       p {
         font-size: 24px;

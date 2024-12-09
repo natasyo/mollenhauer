@@ -4,6 +4,9 @@
   z-index: 8;
   background: url(./../img/broad-bg.png) no-repeat center bottom;
   background-size: 100% 119px;
+  @media screen and (max-width: 1280px) {
+    padding-top: 232px;
+  }
   &__content {
     p {
       font-family: "Mulish";
@@ -27,6 +30,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 0 auto;
+    @media screen and (max-width: 1280px) {
+      display: block;
+    }
   }
   &__item {
     border: 1px solid #e2e2e2;
