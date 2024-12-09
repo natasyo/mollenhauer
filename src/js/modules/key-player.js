@@ -7,6 +7,17 @@ $(".key-player__clients").slick({
   variableWidth: true,
   autoplay: true,
   autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+  ]
 });
 
 $(".key-player__next").on("click", function () {
@@ -22,6 +33,7 @@ clientsItems.slick({
   arrows: false,
   autoplay: true,
   autoplaySpeed: 3000,
+
 });
 
 $('.slider-buttons-button_right').on('click', function () {
