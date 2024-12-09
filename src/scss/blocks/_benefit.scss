@@ -11,6 +11,9 @@
     @media screen and (max-width: 1440px) {
       grid-template-columns: 380px 1fr 1fr;
     }
+    @media screen and (max-width: 1280px) {
+      grid-template-columns: 308px 1fr 1fr;
+    }
     & p {
       flex-grow: 1;
     }

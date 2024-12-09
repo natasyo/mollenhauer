@@ -11,7 +11,6 @@ benefits.slick({
 
 $(".benefit__paginations-button_left").on("click", function () {
   $(benefits).slick("slickPrev");
-  console.log("ok");
 });
 $(".benefit__paginations-button_right").on("click", function () {
   $(benefits).slick("slickNext");
