@@ -4,8 +4,9 @@
   z-index: 8;
   background: url(./../img/broad-bg.png) no-repeat center bottom;
   background-size: 100% 119px;
-  @media screen and (max-width: 1280px) {
-    // padding-top: 232px;
+  @media screen and (max-width: 1000px) {
+    padding-top: 382px;
+    background-size: auto 85px;
   }
   &__content {
     p {
@@ -15,6 +16,12 @@
       line-height: 17px;
       letter-spacing: 0.1px;
       color: #2f3034;
+      @media screen and (max-width: 1000px) {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 13px;
+        letter-spacing: 0.21823762357234955px;
+      }
     }
   }
 
@@ -25,6 +32,13 @@
   &__info {
     text-align: center;
     margin-bottom: 73px;
+    @media screen and (max-width: 1000px) {
+      max-width: 435px;
+      margin: 0 auto 44px;
+      br {
+        display: none;
+      }
+    }
   }
   &__items {
     display: grid;
@@ -42,9 +56,17 @@
       padding: 20px;
       height: 430px;
     }
+    @media screen and (max-width: 1000px) {
+      padding: 39px 30px;
+      height: 355px;
+    }
     &-number {
       width: 38px;
       margin-bottom: 175px;
+      @media screen and (max-width: 1000px) {
+        width: 28px;
+        margin-bottom: 122px;
+      }
       &-val {
         text-align: left;
         /* 01 */
@@ -55,9 +77,21 @@
         margin-bottom: 0;
         color: #da5d24;
         margin-bottom: -3px;
+        @media screen and (max-width: 1000px) {
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 14px;
+          letter-spacing: 0.21823762357234955px;
+        }
       }
       &-plus {
         text-align: right;
+        @media screen and (max-width: 1000px) {
+          svg {
+            width: 15px;
+            height: 15px;
+          }
+        }
       }
     }
     &_5 {
