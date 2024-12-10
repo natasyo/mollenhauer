@@ -7,6 +7,11 @@
     color: rgba(49, 49, 49, 1);
     margin-bottom: 16px;
     display: block;
+    @media screen and (max-width: 1280px) {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 22px;
+    }
   }
   &__container {
     height: 100%;
@@ -15,6 +20,9 @@
   &__content {
     height: 400px;
     filter: grayscale(1) brightness(1) invert(0);
+    @media screen and (max-width: 1280px) {
+      height: 350px;
+    }
   }
   &__contacts {
     position: absolute;
@@ -35,6 +43,17 @@
     font-weight: 700;
     color: rgba(49, 49, 49, 1);
     margin-bottom: 27px !important;
+    @media screen and (max-width: 1280px) {
+      margin-bottom: 17px !important;
+    }
+  }
+  &__contacts-address {
+    @media screen and (max-width: 1280px) {
+      max-width: 179px;
+      br {
+        display: none;
+      }
+    }
   }
   &__contacts-email {
     color: rgba(255, 124, 64, 1) !important;
@@ -44,6 +63,7 @@
     border-top: 1px solid rgba(255, 124, 64, 1);
     display: flex;
     align-items: center;
+    padding-top: 20px;
   }
   &__contacts-socials-title {
     font-weight: 700;
