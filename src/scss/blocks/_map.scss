@@ -22,14 +22,14 @@
   }
 
   &__content {
-    height: 251px;
+    height: 480px;
     filter: grayscale(1) brightness(1) invert(0);
 
     @media screen and (max-width: 1280px) {
       height: 350px;
     }
     @media screen and (max-width: 1000px){
-      height: 330px;
+      height: 251px;
     }
   }
 
