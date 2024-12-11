@@ -8,18 +8,19 @@
     url("./../fonts/sourcesansproextralight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro ExtraLight Italic"),
-    local("SourceSansPro-ExtraLightIt"),
-    url("./../fonts/sourcesansproextralightitalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansproextralightitalic.woff") format("woff"),
-    url("./../fonts/sourcesansproextralightitalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro ExtraLight Italic"),
+//     local("SourceSansPro-ExtraLightIt"),
+//     url("./../fonts/sourcesansproextralightitalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansproextralightitalic.woff") format("woff"),
+//     url("./../fonts/sourcesansproextralightitalic.ttf") format("truetype");
+//   font-weight: 200;
+//   font-style: italic;
+// }
 @font-face {
   font-family: "Source Sans Pro";
   src:
@@ -31,17 +32,17 @@
   font-weight: 300;
   font-style: normal;
 }
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro Light Italic"),
-    local("SourceSansPro-LightIt"),
-    url("./../fonts/sourcesansprolightitalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansprolightitalic.woff") format("woff"),
-    url("./../fonts/sourcesansprolightitalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro Light Italic"),
+//     local("SourceSansPro-LightIt"),
+//     url("./../fonts/sourcesansprolightitalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansprolightitalic.woff") format("woff"),
+//     url("./../fonts/sourcesansprolightitalic.ttf") format("truetype");
+//   font-weight: 300;
+//   font-style: italic;
+// }
 @font-face {
   font-family: "Source Sans Pro";
   src:
@@ -52,18 +53,19 @@
     url("./../fonts/sourcesanspro.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro Italic"),
-    local("SourceSansPro-It"),
-    url("./../fonts/sourcesansproitalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansproitalic.woff") format("woff"),
-    url("./../fonts/sourcesansproitalic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro Italic"),
+//     local("SourceSansPro-It"),
+//     url("./../fonts/sourcesansproitalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansproitalic.woff") format("woff"),
+//     url("./../fonts/sourcesansproitalic.ttf") format("truetype");
+//   font-weight: 400;
+//   font-style: italic;
+// }
 @font-face {
   font-family: "Source Sans Pro";
   src:
@@ -74,18 +76,19 @@
     url("./../fonts/sourcesansprosemibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro Semibold Italic"),
-    local("SourceSansPro-SemiboldIt"),
-    url("./../fonts/sourcesansprosemibolditalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansprosemibolditalic.woff") format("woff"),
-    url("./../fonts/sourcesansprosemibolditalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro Semibold Italic"),
+//     local("SourceSansPro-SemiboldIt"),
+//     url("./../fonts/sourcesansprosemibolditalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansprosemibolditalic.woff") format("woff"),
+//     url("./../fonts/sourcesansprosemibolditalic.ttf") format("truetype");
+//   font-weight: 600;
+//   font-style: italic;
+// }
 @font-face {
   font-family: "Source Sans Pro";
   src:
@@ -96,18 +99,19 @@
     url("./../fonts/sourcesansprobold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro Bold Italic"),
-    local("SourceSansPro-BoldIt"),
-    url("./../fonts/sourcesansprobolditalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansprobolditalic.woff") format("woff"),
-    url("./../fonts/sourcesansprobolditalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro Bold Italic"),
+//     local("SourceSansPro-BoldIt"),
+//     url("./../fonts/sourcesansprobolditalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansprobolditalic.woff") format("woff"),
+//     url("./../fonts/sourcesansprobolditalic.ttf") format("truetype");
+//   font-weight: 700;
+//   font-style: italic;
+// }
 @font-face {
   font-family: "Source Sans Pro";
   src:
@@ -118,95 +122,96 @@
     url("./../fonts/sourcesansproblack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
-}
-@font-face {
-  font-family: "Source Sans Pro";
-  src:
-    local("Source Sans Pro Black Italic"),
-    local("SourceSansPro-BlackIt"),
-    url("./../fonts/sourcesansproblackitalic.woff2") format("woff2"),
-    url("./../fonts/sourcesansproblackitalic.woff") format("woff"),
-    url("./../fonts/sourcesansproblackitalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-ExtraBold.woff2") format("woff2"),
-    url("./../fonts/Mulish-ExtraBold.woff") format("woff"),
-    url("./../fonts/Mulish-ExtraBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
   font-display: swap;
 }
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src:
+//     local("Source Sans Pro Black Italic"),
+//     local("SourceSansPro-BlackIt"),
+//     url("./../fonts/sourcesansproblackitalic.woff2") format("woff2"),
+//     url("./../fonts/sourcesansproblackitalic.woff") format("woff"),
+//     url("./../fonts/sourcesansproblackitalic.ttf") format("truetype");
+//   font-weight: 900;
+//   font-style: italic;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-SemiBold.woff2") format("woff2"),
-    url("./../fonts/Mulish-SemiBold.woff") format("woff"),
-    url("./../fonts/Mulish-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-ExtraBold.woff2") format("woff2"),
+//     url("./../fonts/Mulish-ExtraBold.woff") format("woff"),
+//     url("./../fonts/Mulish-ExtraBold.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-Italic.woff2") format("woff2"),
-    url("./../fonts/Mulish-Italic.woff") format("woff"),
-    url("./../fonts/Mulish-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-SemiBold.woff2") format("woff2"),
+//     url("./../fonts/Mulish-SemiBold.woff") format("woff"),
+//     url("./../fonts/Mulish-SemiBold.ttf") format("truetype");
+//   font-weight: 600;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-Black.woff2") format("woff2"),
-    url("./../fonts/Mulish-Black.woff") format("woff"),
-    url("./../fonts/Mulish-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-Italic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-Italic.woff") format("woff"),
+//     url("./../fonts/Mulish-Italic.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-LightItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-LightItalic.woff") format("woff"),
-    url("./../fonts/Mulish-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-Black.woff2") format("woff2"),
+//     url("./../fonts/Mulish-Black.woff") format("woff"),
+//     url("./../fonts/Mulish-Black.ttf") format("truetype");
+//   font-weight: 900;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-BoldItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-BoldItalic.woff") format("woff"),
-    url("./../fonts/Mulish-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-LightItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-LightItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-LightItalic.ttf") format("truetype");
+//   font-weight: 300;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-Regular.woff2") format("woff2"),
-    url("./../fonts/Mulish-Regular.woff") format("woff"),
-    url("./../fonts/Mulish-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-BoldItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-BoldItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-BoldItalic.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: italic;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-Regular.woff2") format("woff2"),
+//     url("./../fonts/Mulish-Regular.woff") format("woff"),
+//     url("./../fonts/Mulish-Regular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
 @font-face {
   font-family: "Mulish";
@@ -230,60 +235,60 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-ExtraLightItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-ExtraLightItalic.woff") format("woff"),
-    url("./../fonts/Mulish-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-ExtraLightItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-ExtraLightItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-ExtraLightItalic.ttf") format("truetype");
+//   font-weight: 200;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-SemiBoldItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-SemiBoldItalic.woff") format("woff"),
-    url("./../fonts/Mulish-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-SemiBoldItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-SemiBoldItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-SemiBoldItalic.ttf") format("truetype");
+//   font-weight: 600;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-Bold.woff2") format("woff2"),
-    url("./../fonts/Mulish-Bold.woff") format("woff"),
-    url("./../fonts/Mulish-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-Bold.woff2") format("woff2"),
+//     url("./../fonts/Mulish-Bold.woff") format("woff"),
+//     url("./../fonts/Mulish-Bold.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-BlackItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-BlackItalic.woff") format("woff"),
-    url("./../fonts/Mulish-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-BlackItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-BlackItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-BlackItalic.ttf") format("truetype");
+//   font-weight: 900;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-ExtraBoldItalic.woff2") format("woff2"),
-    url("./../fonts/Mulish-ExtraBoldItalic.woff") format("woff"),
-    url("./../fonts/Mulish-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-ExtraBoldItalic.woff2") format("woff2"),
+//     url("./../fonts/Mulish-ExtraBoldItalic.woff") format("woff"),
+//     url("./../fonts/Mulish-ExtraBoldItalic.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
 @font-face {
   font-family: "Mulish";
@@ -296,16 +301,16 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Mulish";
-  src:
-    url("./../fonts/Mulish-ExtraLight.woff2") format("woff2"),
-    url("./../fonts/Mulish-ExtraLight.woff") format("woff"),
-    url("./../fonts/Mulish-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Mulish";
+//   src:
+//     url("./../fonts/Mulish-ExtraLight.woff2") format("woff2"),
+//     url("./../fonts/Mulish-ExtraLight.woff") format("woff"),
+//     url("./../fonts/Mulish-ExtraLight.ttf") format("truetype");
+//   font-weight: 200;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
 @font-face {
   font-family: "slick";
