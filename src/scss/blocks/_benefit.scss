@@ -2,53 +2,80 @@
   position: relative;
   z-index: 2;
   padding: 170px 0;
+
+  &__container {
+    @media screen and (max-width: 1000px) {
+      padding: 0 44px;
+    }
+  }
+
   &__header {
     display: grid;
     grid-template-columns: 460px 1fr 1fr;
     column-gap: 26px;
     max-width: 1380px;
     margin-bottom: 84px;
+
     @media screen and (max-width: 1440px) {
       grid-template-columns: 380px 1fr 1fr;
     }
+
     @media screen and (max-width: 1280px) {
       grid-template-columns: 302px 1fr 1fr;
     }
-    @media screen and (max-width: 1280px) {
-      grid-template-columns: 308px 1fr 1fr;
+
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 240px 1fr 1fr;
+      column-gap: 17px;
+      margin-bottom: 79px;
+
+      br {
+        display: none;
+      }
     }
+
     & p {
       flex-grow: 1;
     }
   }
+
   &__content {
     position: relative;
+    @media screen and (max-width: 1000px){
+      padding-right: 21px;
+    }
   }
 
   &__item {
     &-wrap {
       display: flex;
     }
+
     &-header {
       margin-bottom: 44px;
     }
+
     &-image {
       // flex-shrink: 0;
       margin-right: 18px;
       height: 558px;
+
       img {
         object-fit: cover;
         height: 100%;
         width: 100%;
       }
     }
+
     &-content {
       padding-top: 252px;
       width: 386px;
+
       @media screen and (max-width: 1280px) {
         padding-top: 204px;
       }
     }
+
     &-text {
       font-size: 16px;
       font-weight: 400;
@@ -57,27 +84,35 @@
       max-width: 319px;
     }
   }
+
   &__paginations {
     max-width: 1007px;
-
+    z-index: 3;
     position: absolute;
     right: 0;
     top: 0;
-
+    @media screen and (max-width: 1000px){
+      position: static;
+max-width: 100%;
+    }
     &-wrap {
       display: flex;
       background: #fff;
       box-shadow: 0px 20px 50px 0px #06255b0f;
       padding: 19px 57px 19px 37px;
     }
+
     &-item {
       padding: 0 24px;
       max-width: 252px;
+
       &_visited {
+
         .benefit__paginations-content p,
         p {
           color: rgba(47, 48, 52, 1);
         }
+
         .benefit__paginations-plus {
           svg {
             fill: rgba(47, 48, 52, 1);
@@ -85,13 +120,16 @@
         }
       }
     }
+
     &-item:not(:last-of-type) {
       border-right: 1px dashed #a8acad;
     }
+
     &-num {
       max-width: 37px;
       margin-bottom: 17px;
     }
+
     &-val {
       font-size: 17px;
       font-weight: 700;
@@ -100,8 +138,10 @@
       color: #a8acad;
       margin-bottom: -4px;
     }
+
     &-plus {
       text-align: right;
+
       svg {
         fill: #a8acad;
       }
@@ -121,6 +161,12 @@
       &_left {
         margin-left: 144px;
       }
+    }
+  }
+
+  &__paginations-buttons {
+    @media screen and (max-width: 1280px) {
+      display: none;
     }
   }
 }
