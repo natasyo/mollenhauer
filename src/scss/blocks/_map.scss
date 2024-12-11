@@ -1,5 +1,6 @@
 .map {
   position: relative;
+
   & p,
   & a {
     font-size: 15px;
@@ -7,23 +8,31 @@
     color: rgba(49, 49, 49, 1);
     margin-bottom: 16px;
     display: block;
+
     @media screen and (max-width: 1280px) {
       font-size: 13px;
       font-weight: 600;
       line-height: 22px;
     }
   }
+
   &__container {
     height: 100%;
     padding: 32px 0 22px;
   }
+
   &__content {
-    height: 400px;
+    height: 251px;
     filter: grayscale(1) brightness(1) invert(0);
+
     @media screen and (max-width: 1280px) {
       height: 350px;
     }
+    @media screen and (max-width: 1000px){
+      height: 330px;
+    }
   }
+
   &__contacts {
     position: absolute;
     width: 100%;
@@ -31,6 +40,11 @@
     left: 0;
     top: 0;
   }
+
+  &__contacts-logo {
+    max-width: 54px;
+  }
+
   &__contacts-content {
     background: #fff;
     padding: 24px 0px 31px 73px;
@@ -38,38 +52,75 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 1000px) {
+      padding: 9px 0px 31px 45px;
+      max-width: 363px;
+      height: 228px;
+    }
   }
+
   &__contacts-title {
     font-weight: 700;
     color: rgba(49, 49, 49, 1);
     margin-bottom: 27px !important;
+
     @media screen and (max-width: 1280px) {
       margin-bottom: 17px !important;
     }
   }
+
   &__contacts-address {
     @media screen and (max-width: 1280px) {
       max-width: 179px;
+
       br {
         display: none;
       }
     }
   }
+
   &__contacts-email {
     color: rgba(255, 124, 64, 1) !important;
   }
+
   &__contacts-socials {
     padding-right: 39px;
     border-top: 1px solid rgba(255, 124, 64, 1);
     display: flex;
     align-items: center;
     padding-top: 20px;
+    @media screen and (max-width: 1000px){
+      padding-right: 15px;
+      padding-top: 1px;
+      p, a{
+        margin-bottom: 0;
+      }
+    }
   }
+
   &__contacts-socials-title {
     font-weight: 700;
     margin-right: 12px;
   }
+
   &__contacts-item {
     margin-left: 16px;
+
+    @media screen and (max-width: 1000px) {
+      margin-left: 9px;
+      svg {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+  @media screen and (max-width: 1000px){
+    &__contacts-address{
+      margin-bottom: 11px!important;
+    }
+    &__contacts-email{
+      margin-bottom: 6px;
+    }
   }
 }

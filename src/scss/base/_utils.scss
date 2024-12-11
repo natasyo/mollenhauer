@@ -18,12 +18,14 @@
 .no-scroll {
   overflow-y: hidden;
 }
+
 p {
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
   color: #737b7d;
   letter-spacing: 0.3px;
+
   @media screen and (max-width: 1000px) {
     font-size: 16px;
     font-weight: 400;
@@ -31,6 +33,7 @@ p {
     letter-spacing: 0.30000001192092896px;
   }
 }
+
 .h1,
 h1 {
   font-size: 64px;
@@ -38,18 +41,22 @@ h1 {
   /* or 70px */
   letter-spacing: -1.46526px;
   margin-bottom: 24px;
+
   @media screen and (max-width: 1440px) {
     font-size: 57px;
   }
+
   @media screen and (max-width: 1280px) {
     font-size: 51px;
   }
+
   @media screen and (max-width: 1000px) {
     font-size: 48px;
     line-height: 52.8px;
     letter-spacing: -1.46526300907135px;
   }
 }
+
 .h2,
 h2 {
   font-weight: 700;
@@ -59,18 +66,22 @@ h2 {
   letter-spacing: -1px;
   margin-bottom: 24px;
   color: #000000;
+
   @media screen and (max-width: 1440px) {
     font-size: 36px;
   }
+
   @media screen and (max-width: 1280px) {
     font-size: 34px;
   }
+
   @media screen and (max-width: 1000px) {
     font-size: 30px;
     line-height: 30px;
     letter-spacing: -1px;
   }
 }
+
 .h3,
 h3 {
   font-size: 32px;
@@ -78,7 +89,16 @@ h3 {
   line-height: 32px;
   letter-spacing: -1px;
   color: #000000;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1px;
+
+  }
 }
+
 .h4,
 h4 {
   font-size: 28px;
@@ -86,7 +106,15 @@ h4 {
   line-height: 28px;
   letter-spacing: -1px;
   color: #000000;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
 }
+
 h5,
 .h5 {
   font-size: 20px;
@@ -94,6 +122,14 @@ h5,
   line-height: 20px;
   letter-spacing: 0.17999999225139618px;
   color: #2f3034;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0.1527128666639328px;
+
+  }
 }
 
 // ----------------------Slick slider-----------------------
@@ -104,17 +140,21 @@ h5,
   &-button {
     height: 71px;
     width: 71px;
+
     &_left {
       background: #06255b;
     }
+
     &_right {
       background: #da5d24;
     }
   }
 }
+
 .slick-dotted.slick-slider {
   margin-bottom: 0 !important;
 }
+
 .slick-dots {
   li {
     width: 10px;
@@ -122,35 +162,52 @@ h5,
     background: #d9d9d9;
     border-radius: 50%;
     margin: 0 2px;
+
     @media screen and (max-width: 1000px) {
       height: 9px;
       width: 9px;
     }
+
     button:before {
       font-size: 0;
     }
+
     &.slick-active {
       background: #ff7c40;
     }
   }
 }
+
 .text-xl {
   font-size: 32px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: -1px;
   color: #da5d24;
+
+  @media screen and (max-width: 1000px) {
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+
+  }
 }
+
 .text-sm {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.8px;
   letter-spacing: 0.30000001192092896px;
+
   @media screen and (max-width: 1280px) {
     font-size: 14px;
     line-height: 18.2px;
+    letter-spacing: 0.2px;
   }
 }
+
 .text-bold {
   font-weight: 700;
 }

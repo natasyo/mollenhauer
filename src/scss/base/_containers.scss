@@ -3,25 +3,12 @@
   max-width: var(--container-width);
   margin: 0 auto;
   max-width: var(--container-max-width);
-}
-
-.container-right {
-  /* overflow-x: hidden; */
-  padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
-
-  @media (max-width: var(--laptop-size)) {
-    padding-left: var(--container-padding);
+  @media screen and (max-width: 1000px){
+    padding: 0 45px;
   }
 }
 
-.container-left {
-  /* overflow-x: hidden; */
-  padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 
-  @media (max-width: var(--laptop-size)) {
-    padding-right: var(--container-padding);
-  }
-}
 
 .container-top {
   background: url("./../img/bg-top.jpg") no-repeat center top;

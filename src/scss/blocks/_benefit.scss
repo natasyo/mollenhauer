@@ -2,7 +2,9 @@
   position: relative;
   z-index: 2;
   padding: 170px 0;
-
+  @media screen and (max-width: 1000px){
+    padding: 170px 0 87px;
+  }
   &__container {
     @media screen and (max-width: 1000px) {
       padding: 0 44px;
@@ -27,7 +29,7 @@
     @media screen and (max-width: 1000px) {
       grid-template-columns: 240px 1fr 1fr;
       column-gap: 17px;
-      margin-bottom: 79px;
+      margin-bottom: 58px;
 
       br {
         display: none;
@@ -41,9 +43,6 @@
 
   &__content {
     position: relative;
-    @media screen and (max-width: 1000px){
-      padding-right: 21px;
-    }
   }
 
   &__item {
@@ -53,12 +52,21 @@
 
     &-header {
       margin-bottom: 44px;
+      @media screen and (max-width: 1000px){
+        margin-bottom: 18px;
+      }
     }
 
     &-image {
       // flex-shrink: 0;
       margin-right: 18px;
       height: 558px;
+
+      @media screen and (max-width: 1000px) {
+        height: 292px;
+        width: 800px;
+        margin-right: 20px;
+      }
 
       img {
         object-fit: cover;
@@ -74,6 +82,10 @@
       @media screen and (max-width: 1280px) {
         padding-top: 204px;
       }
+
+      @media screen and (max-width: 1000px) {
+        padding-top: 36px;
+      }
     }
 
     &-text {
@@ -82,6 +94,13 @@
       line-height: 20.8px;
       letter-spacing: 0.30000001192092896px;
       max-width: 319px;
+
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        letter-spacing: 0.30000001192092896px;
+      }
     }
   }
 
@@ -91,20 +110,31 @@
     position: absolute;
     right: 0;
     top: 0;
-    @media screen and (max-width: 1000px){
+
+    @media screen and (max-width: 1000px) {
       position: static;
-max-width: 100%;
+      max-width: 100%;
     }
+
     &-wrap {
       display: flex;
       background: #fff;
       box-shadow: 0px 20px 50px 0px #06255b0f;
-      padding: 19px 57px 19px 37px;
+      padding: 19px 57px 19px 28px;
+
+      @media screen and (max-width: 1000px) {
+        padding: 14px 57px 7px 29px;
+      }
     }
 
     &-item {
       padding: 0 24px;
-      max-width: 252px;
+      max-width: 193px;
+
+      @media screen and (max-width: 1000px) {
+        padding: 0 16px 0 16px;
+        max-width: 186px;
+      }
 
       &_visited {
 
@@ -128,6 +158,15 @@ max-width: 100%;
     &-num {
       max-width: 37px;
       margin-bottom: 17px;
+
+      @media screen and (max-width: 1000px) {
+        max-width: 30px;
+        margin-bottom: 10px;
+
+        svg {
+          max-width: 14px;
+        }
+      }
     }
 
     &-val {
@@ -137,6 +176,15 @@ max-width: 100%;
       letter-spacing: 0.30000001192092896px;
       color: #a8acad;
       margin-bottom: -4px;
+
+      @media screen and (max-width: 1000px) {
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0.22224430739879608px;
+
+      }
     }
 
     &-plus {
@@ -154,6 +202,14 @@ max-width: 100%;
         line-height: 17px;
         letter-spacing: -1px;
         color: #a8acad;
+
+        @media screen and (max-width: 1000px) {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 13.6px;
+          letter-spacing: -0.7408143281936646px;
+
+        }
       }
     }
 
