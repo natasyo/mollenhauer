@@ -35,11 +35,17 @@
     padding-top: 60px;
     height: 708px;
   }
+  @media screen and (max-width: 1000px){
+    padding-top: 43px;
+  }
   &__container {
     color: var(--text-color-white);
     padding-left: 165px;
     @media screen and (max-width: 1000px) {
       padding-left: 107px;
+    }
+    @media screen and (max-width: 768px){
+      padding-left: 16px;
     }
   }
   &__text {
@@ -147,6 +153,10 @@
     @media screen and (max-width: 1000px) {
       height: 182px;
       width: 182px;
+    }
+    @media screen and (max-width: 768px){
+      width: 166.18px;
+      height: 166.18px;      
     }
     &-empty {
       // width: 264.01px;

@@ -1,12 +1,14 @@
 <header class="header">
   <div class="container__fluid">
     <div class="header__row">
-      <a href="/" class="logo"><img src="./img/logo.svg" width="263" height="46" alt="mollenhauer" /></a>
-      <div class="header__menu"> @@include('menu.html')</div>
-
+      <a href="/" class="logo">
+        <img src="./img/logo.svg" width="263" height="46" alt="mollenhauer"/>
+       </a>
+      <div class="header__menu">@@include('menu.html')</div>
       <div class="header__right">
         <button class="btn btn-primary header__contact-us">Contact Us</button>
-        @@include('languages.html')
+        <div class="header__languages">@@include('languages.html')</div>
+
         <button class="mobile-nav-btn">
           <div class="mobile-nav-btn__wrap">
             <span></span>
