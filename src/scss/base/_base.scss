@@ -10,7 +10,7 @@ body {
     225deg,
     rgba(247, 249, 252, 1) 0%,
     rgba(247, 249, 252, 1) 50.3%,
-    rgba(255, 255, 255, 1) 50.3%,
+    rgba(255, 255, 255, 1) 0,
     rgba(255, 255, 255, 1) 70%,
     rgba(247, 249, 252, 1) 70%,
     rgba(247, 249, 252, 1) 100%
@@ -18,4 +18,13 @@ body {
 
   color: var(--text-color);
   font-family: var(--font-main);
+  @media screen and (max-width: 768px){
+    background: linear-gradient(
+      225deg,
+      rgba(255, 255, 255, 1) 0,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(247, 249, 252, 1) 70%,
+      rgba(247, 249, 252, 1) 100%
+    );
+  }
 }

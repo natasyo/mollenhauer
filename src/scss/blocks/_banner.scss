@@ -5,6 +5,7 @@
 
   @media screen and (max-width: 1000px) {
     padding: 196px 0 330px;
+
     br {
       display: none;
     }
@@ -105,6 +106,11 @@
     @media screen and (max-width: 1000px) {
       left: calc(50% + 463px);
       top: 222px;
+    }
+
+    @media screen and (max-width: 768px) {
+      left: calc(50% + 224px);
+      top: -11px;
     }
 
     &::before,
@@ -338,7 +344,7 @@
 
       &-wrap {
         display: flex;
-        padding:16px;
+        padding: 16px;
       }
     }
   }

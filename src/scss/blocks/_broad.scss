@@ -8,6 +8,9 @@
     padding-top: 382px;
     background-size: auto 85px;
   }
+  @media screen and (max-width: 768px){
+    padding-top: 650px;
+  }
   &__content {
     p {
       font-family: "Mulish";
