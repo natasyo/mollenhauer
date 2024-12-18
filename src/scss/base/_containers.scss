@@ -3,21 +3,30 @@
   max-width: var(--container-width);
   margin: 0 auto;
   max-width: var(--container-max-width);
-  @media screen and (max-width: 1000px){
+
+  @media screen and (max-width: 1000px) {
     padding: 0 45px;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 16px;
+  }
 }
+
 .container-top {
   background: url("./../img/bg-top.webp") no-repeat center top;
   background-size: cover;
 }
+
 .container__fluid {
   max-width: var(--max-width-content);
   margin: 0 auto;
 }
+
 .main-layout {
   position: relative;
   overflow: hidden;
+
   &__rect {
     position: absolute;
     width: 2440px;

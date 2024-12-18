@@ -16,6 +16,24 @@ $(".key-player__clients").slick({
         infinite: true,
         dots: true
       }
+    }, , {
+      breakpoint: 800,
+      settings: {
+        rows:2,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },{
+      breakpoint: 500,
+      settings: {
+        rows:3,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
     },
   ]
 });

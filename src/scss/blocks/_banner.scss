@@ -94,6 +94,7 @@
     transform-style: preserve-3d;
     left: calc(50% + 681px);
     top: 36px;
+    z-index: 6;
 
     @media screen and (max-width: 1440px) {
       left: calc(50% + 654px);
@@ -111,6 +112,7 @@
     @media screen and (max-width: 768px) {
       left: calc(50% + 224px);
       top: -11px;
+
     }
 
     &::before,

@@ -4,13 +4,24 @@
   z-index: 8;
   background: url(./../img/broad-bg.png) no-repeat center bottom;
   background-size: 100% 119px;
+
   @media screen and (max-width: 1000px) {
     padding-top: 382px;
     background-size: auto 85px;
   }
-  @media screen and (max-width: 768px){
-    padding-top: 650px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 843px;
+    background-position-x: 0;
+    background-size: auto 100px;
   }
+
+  &__container {
+    @media screen and (max-width: 1000px) {
+      padding: 0 16px;
+    }
+  }
+
   &__content {
     p {
       font-family: "Mulish";
@@ -19,11 +30,19 @@
       line-height: 17px;
       letter-spacing: 0.1px;
       color: #2f3034;
+
       @media screen and (max-width: 1000px) {
         font-size: 13px;
         font-weight: 700;
         line-height: 13px;
         letter-spacing: 0.21823762357234955px;
+      }
+      @media screen and (max-width: 768px){
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.21823762357234955px;
+        
       }
     }
   }
@@ -32,44 +51,71 @@
     text-align: center;
     color: #000000;
   }
+
   &__info {
     text-align: center;
     margin-bottom: 73px;
+
     @media screen and (max-width: 1000px) {
       max-width: 435px;
       margin: 0 auto 44px;
+
       br {
         display: none;
       }
     }
+
+    @media screen and (max-width: 768px) {
+      margin: 0 auto 27px;
+    }
   }
+
   &__items {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 0 auto;
+
     @media screen and (max-width: 1280px) {
       display: block;
     }
+
+    @media screen and (max-width: 768px) {
+      .slick-dots {
+        bottom: 26px;
+      }
+    }
+
   }
+
   &__item {
     border: 1px solid #e2e2e2;
     padding: 55px 38px;
     height: 488px;
+
     @media screen and (max-width: 1440px) {
       padding: 20px;
       height: 430px;
     }
+
     @media screen and (max-width: 1000px) {
       padding: 39px 30px;
       height: 355px;
     }
+
+    @media screen and (max-width: 768px) {
+      padding: 33px 21px;
+      height: 640px;
+    }
+
     &-number {
       width: 38px;
       margin-bottom: 175px;
+
       @media screen and (max-width: 1000px) {
         width: 28px;
         margin-bottom: 122px;
       }
+
       &-val {
         text-align: left;
         /* 01 */
@@ -80,15 +126,26 @@
         margin-bottom: 0;
         color: #da5d24;
         margin-bottom: -3px;
+
         @media screen and (max-width: 1000px) {
           font-size: 14px;
           font-weight: 700;
           line-height: 14px;
           letter-spacing: 0.21823762357234955px;
         }
+
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0.21823762357234955px;
+
+        }
       }
+
       &-plus {
         text-align: right;
+
         @media screen and (max-width: 1000px) {
           svg {
             width: 15px;
@@ -97,6 +154,7 @@
         }
       }
     }
+
     &_5 {
       background: url(./../img/broad-item.webp) no-repeat center;
       background-size: cover;

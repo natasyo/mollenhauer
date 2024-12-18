@@ -6,7 +6,13 @@ const benefits = $(".benefit__items");
 benefits.slick({
   arrows: false,
   //  autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 3000,  responsive:[
+    {
+     breakpoint: 768,
+       settings: {
+        dots:true
+       }
+    }]
 });
 
 $(".benefit__paginations-button_left").on("click", function () {
