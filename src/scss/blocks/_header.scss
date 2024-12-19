@@ -1,12 +1,15 @@
 .header {
   padding: 47px 0;
+  transition: 0.5s ease all;
 
   @media screen and (max-width: 1280px) {
     padding: 11px 0;
   }
+
   @media screen and (max-width: 768px) {
     padding: 7px 0;
   }
+
   &__languages {
     @media screen and (max-width: 768px) {
       display: none;
@@ -53,7 +56,38 @@
   &__right {
     display: flex;
     align-items: center;
+
     // margin-top: 26px;
+    @media screen and (max-width: 1280px) {
+      padding-right: 110px;
+    }
+  }
+
+  &.f-nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background: #fff;
+    padding: 18px 0 8px;
+    transition: 0.5s ease all;
+
+    .logo {
+      path {
+        fill: #06255B;
+        ;
+      }
+    }
+
+    .mobile-nav-btn span {
+      background: #2F3034;
+      ;
+    }
+    .menu__link{
+      color: #2F3034;
+    }
+
   }
 }
 
@@ -64,14 +98,22 @@
   margin-left: 1px;
   display: none;
   transition: ease 0.5s all;
-  @media screen and (max-width: 768px){
+  position: fixed;
+  right: 0px;
+  top: 11px;
+  z-index: 99999;
+
+  @media screen and (max-width: 768px) {
     width: 76px;
+    top: 6px;
   }
+
   &__wrap {
     position: relative;
     width: 32px;
     height: 24px;
-    @media screen and (max-width: 768px){
+
+    @media screen and (max-width: 768px) {
       width: 44px;
       height: 31px;
     }
@@ -86,13 +128,16 @@
     position: absolute;
     right: 0;
     transition: ease 0.5s all;
+
     @media screen and (max-width: 768px) {
       width: 44px;
       height: 5px;
     }
+
     &:first-child {
       width: 25px;
       top: 0;
+
       @media screen and (max-width: 768px) {
         width: 34px;
       }
@@ -100,7 +145,8 @@
 
     &:nth-child(2) {
       top: 10px;
-      @media screen and (max-width: 768px){
+
+      @media screen and (max-width: 768px) {
         top: 13px;
       }
     }
@@ -115,6 +161,11 @@
     align-items: center;
     justify-content: center;
     padding-right: 12px;
+
+    &.f-nav span {
+      background: #2F3034;
+
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -133,18 +184,20 @@
     &__right {
       position: fixed;
       right: 0;
+      top: 10px;
 
       @media screen and (max-width: 768px) {
-        z-index: 9;
+        z-index: 999;
       }
     }
   }
 
   .mobile-nav-btn {
     background: rgba(255, 124, 64, 1);
+
     span {
       transition: ease 0.5s all;
-      background-color: #fff;
+      background-color: #fff !important;
       border-radius: 0;
 
       &:first-child {
@@ -154,7 +207,8 @@
       &:nth-child(2) {
         transform: rotate(45deg);
         top: 10px;
-        @media screen and (max-width: 768px){
+
+        @media screen and (max-width: 768px) {
           top: 13px;
         }
       }
@@ -162,7 +216,8 @@
       &:last-child {
         transform: rotate(-45deg);
         bottom: 10px;
-        @media screen and (max-width: 768px){
+
+        @media screen and (max-width: 768px) {
           bottom: 13px;
         }
       }
