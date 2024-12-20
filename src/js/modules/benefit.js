@@ -7,12 +7,12 @@ benefits.slick({
   arrows: false,
   //  autoplay: true,
   autoplaySpeed: 3000,
+  lazyLoad: "progressive",
   responsive: [
     {
       breakpoint: 768,
       settings: {
         dots: true,
-        lazyLoad: "ondemand",
       },
     },
   ],
