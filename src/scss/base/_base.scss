@@ -15,7 +15,7 @@ body {
     rgba(247, 249, 252, 1) 70%,
     rgba(247, 249, 252, 1) 100%
   );
-  overflow: hidden;
+  overflow-x: hidden;
 
   color: var(--text-color);
   font-family: var(--font-main);
