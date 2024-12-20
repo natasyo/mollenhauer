@@ -15,10 +15,11 @@ body {
     rgba(247, 249, 252, 1) 70%,
     rgba(247, 249, 252, 1) 100%
   );
+  overflow: hidden;
 
   color: var(--text-color);
   font-family: var(--font-main);
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     background: linear-gradient(
       225deg,
       rgba(255, 255, 255, 1) 0,
