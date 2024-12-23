@@ -2,9 +2,8 @@
 Gulp 4 сборка. HTML, SCSS, JS, webpack, babel, webp, сжатие графики, автопрефиксы
 
 Демо:
-https://serrjik.github.io/Gulp2023/
+https://natasyo.github.io/mollenhauer/
 
-![Скриншот страницы](https://github.com/Serrjik/Gulp2023/blob/main/page.jpg)
 
 Сборка создана по инструкции школы [Webcademy](https://webcademy.ru/). Урок на Youtube: https://youtu.be/D_HW-tvyKKE
 
