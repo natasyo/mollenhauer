@@ -2,14 +2,11 @@ import $ from "jquery";
 const YaMapsShown = false;
 
 $(window).on("scroll", function () {
-  console.log("kkkkkkkkk");
   if (!YaMapsShown) {
-    console.log("kkkkkkkkk");
     if (
       $(window).scrollTop() + $(window).height() >
       $(document).height() - 700
     ) {
-      console.log("kk444444kkkk");
       showYaMaps();
       YaMapsShown = true;
     }
