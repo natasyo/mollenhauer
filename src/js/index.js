@@ -21,6 +21,5 @@ $(window).scroll(function () {
 });
 
 $(window).on("resize", function () {
-  console.log("resize");
   location.reload();
 });
